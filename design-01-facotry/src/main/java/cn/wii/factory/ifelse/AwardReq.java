@@ -4,7 +4,7 @@ import java.util.Map;
 
 /**
  * @ClassName AwardReq
- * @Description TODO
+ * @Description
  * @Author wii
  * @Date 2021/8/6 3:25 下午
  * @Version 1.0
@@ -31,7 +31,7 @@ public class AwardReq {
     /**
      * 拓展信息
      */
-    private Map<String,String> extMap;
+    private Map<String, String> extMap;
 
     public String getUid() {
         return uid;

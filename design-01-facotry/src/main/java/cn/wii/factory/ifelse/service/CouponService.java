@@ -2,7 +2,7 @@ package cn.wii.factory.ifelse.service;
 
 /**
  * @ClassName CouponService
- * @Description TODO
+ * @Description
  * @Author wii
  * @Date 2021/8/6 4:41 下午
  * @Version 1.0
@@ -10,7 +10,7 @@ package cn.wii.factory.ifelse.service;
 
 public class CouponService {
 
-    public CouponResult sendCoupon(String uid,String number,String bizId) {
+    public CouponResult sendCoupon(String uid, String number, String bizId) {
         return new CouponResult();
     }
 }

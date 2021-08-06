@@ -2,7 +2,7 @@ package cn.wii.factory.ifelse;
 
 /**
  * @ClassName AwardRes
- * @Description TODO
+ * @Description
  * @Author wii
  * @Date 2021/8/6 3:25 下午
  * @Version 1.0

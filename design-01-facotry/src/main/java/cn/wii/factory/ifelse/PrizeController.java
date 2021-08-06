@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * @ClassName PrizeController
- * @Description TODO
+ * @Description
  * @Author wii
  * @Date 2021/8/6 3:25 下午
  * @Version 1.0

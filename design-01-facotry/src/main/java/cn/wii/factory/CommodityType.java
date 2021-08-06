@@ -2,7 +2,7 @@ package cn.wii.factory;
 
 /**
  * @ClassName CommodityType
- * @Description TODO
+ * @Description
  * @Author wii
  * @Date 2021/8/6 5:22 下午
  * @Version 1.0

@@ -2,7 +2,7 @@ package cn.wii.factory.design.coupon;
 
 /**
  * @ClassName CouponResult
- * @Description TODO
+ * @Description
  * @Author wii
  * @Date 2021/8/6 5:02 下午
  * @Version 1.0

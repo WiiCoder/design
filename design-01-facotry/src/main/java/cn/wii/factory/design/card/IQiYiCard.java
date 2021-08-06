@@ -2,7 +2,7 @@ package cn.wii.factory.design.card;
 
 /**
  * @ClassName IQiYiCard
- * @Description TODO
+ * @Description
  * @Author wii
  * @Date 2021/8/6 5:10 下午
  * @Version 1.0

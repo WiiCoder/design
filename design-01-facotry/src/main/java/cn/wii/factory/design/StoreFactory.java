@@ -8,14 +8,14 @@ import cn.wii.factory.design.store.impl.GoodsCommodityService;
 
 /**
  * @ClassName StoreFactory
- * @Description TODO
+ * @Description
  * @Author wii
  * @Date 2021/8/6 4:56 下午
  * @Version 1.0
  */
 
 public class StoreFactory {
-    
+
     public ICommodity getCommodityService(Integer commodityType) {
         CommodityType type = CommodityType.match(commodityType);
         if (null == type) {
