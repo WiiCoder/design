@@ -30,10 +30,11 @@ public class CouponCommodityService implements ICommodity {
         deliverReq.setUserPhone(queryUserPhoneNumber(uid));
         deliverReq.setSku(commodityId);
         deliverReq.setOrderId(bizId);
-        deliverReq.setConsigneeUserName(extMap.get("consigneeUserName"));
-        deliverReq.setConsigneeUserPhone(extMap.get("consigneeUserPhone"));
-        deliverReq.setConsigneeUserAddress(extMap.get("consigneeUserAddress"));
-
+        if (extMap != null) {
+            deliverReq.setConsigneeUserName(extMap.getOrDefault("consigneeUserName", null));
+            deliverReq.setConsigneeUserPhone(extMap.getOrDefault("consigneeUserPhone", null));
+            deliverReq.setConsigneeUserAddress(extMap.getOrDefault("consigneeUserAddress", null));
+        }
         Boolean isSuccess = goodsService.deliverGoods(deliverReq);
 
         logger.info("请求参数[优惠券] => uId：{} commodityId：{} bizId：{} extMap：{}", uid, commodityId, bizId, JSON.toJSON(extMap));
