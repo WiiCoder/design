@@ -6,7 +6,12 @@
 
     <groupId>cn.wii</groupId>
     <artifactId>design</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>design-01-factory</module>
+        <module>design-01-facotry</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
